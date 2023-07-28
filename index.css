@@ -11,18 +11,54 @@ body {
   width: 1400px;
 }
 
+.logo-link {
+  margin-right: 550.46px;
+  margin-top: 32.82px;
+  display: inline-block;
+}
+
+.logo {
+  display: block;
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-top: 33px;
+  margin-right: 60px;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav__link:nth-last-child(4) {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
 h3 {
   letter-spacing: -0.9px;
 }
 
 h1,
 h2,
-h3 {
+h3,
+.nav__link {
   font-weight: 400;
   font-style: normal;
 }
 
 h1 {
+  width: 956px;
+  margin-top: 70px;
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;

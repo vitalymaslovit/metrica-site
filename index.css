@@ -11,8 +11,12 @@ body {
   width: 1400px;
 }
 
+.nav-section {
+  width: 1150px;
+}
+
 .logo-link {
-  margin-right: 550.46px;
+  margin-right: 545.46px;
   margin-top: 32.82px;
   display: inline-block;
 }
@@ -35,7 +39,7 @@ body {
   color: #121212;
 }
 
-.nav__link:nth-last-child(4) {
+.nav__link:nth-last-child(1) {
   margin-right: 0;
 }
 

@@ -5,6 +5,10 @@ body {
   background-color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   padding-left: 125px;
   margin: 0 auto;

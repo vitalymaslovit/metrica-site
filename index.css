@@ -283,7 +283,12 @@ h1 {
   text-decoration: none;
 }
 
+.contacts__mail {
+  display: block;
+}
+
 .contacts__phone-number {
+  display: block;
   margin-bottom: 30px;
 }
 

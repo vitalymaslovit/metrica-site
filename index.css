@@ -244,3 +244,53 @@ h1 {
   letter-spacing: -0.9px;
   color: #fff;
 }
+
+.contacts-wrapper {
+  margin-bottom: 150px;
+  margin-top: 186px;
+  width: 473px;
+}
+
+.contacts__title {
+  position: relative;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+.contacts__title::before {
+  margin-bottom: 12px;
+  position: absolute;
+  bottom: 25px;
+  left: -6px;
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(./resources/phone-icone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contacts__phone-number,
+.contacts__mail {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+.contacts__phone-number {
+  margin-bottom: 30px;
+}
+
+.contacts__mail {
+  text-decoration: none;
+  color: #121212;
+}
+
+.contacts__mail:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}

@@ -181,7 +181,6 @@ h1 {
 }
 
 .services-list {
-  margin-left: 127px;
   padding-top: 151px;
   margin-bottom: 34px;
   font-size: 18px;
@@ -192,10 +191,10 @@ h1 {
 }
 
 .services-background {
-  margin: 0 auto;
+  width: 100%;
+
   background-color: #121212;
 
-  width: 1400px;
   min-width: 1400px;
 }
 
@@ -223,7 +222,7 @@ h1 {
 .fullScreenImageSection {
   position: relative;
   margin: 0 auto;
-  width: 1400px;
+  width: 100%;
   height: 717px;
   background-image: url(./resources/bedroom.png);
   background-repeat: no-repeat;
@@ -299,8 +298,7 @@ h1 {
 }
 
 .footer-wrapper {
-  margin: 0 auto;
-  width: 1400px;
+  width: 100%;
   height: 229px;
   background-color: #121212;
 }

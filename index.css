@@ -287,6 +287,7 @@ h1 {
   margin-bottom: 30px;
 }
 
+.contacts__phone-number:hover,
 .contacts__mail:hover {
   opacity: 0.5;
   text-decoration: underline;

@@ -47,7 +47,7 @@ html {
 
 .nav__link:hover {
   opacity: 0.5;
-  text-decoration: underline;
+  border-bottom: 1px solid;
 }
 
 a {
@@ -172,7 +172,6 @@ h1 {
   border: 1px solid var(--accent, #ad1818);
   background: var(--accent, #ad1818);
   color: #ffffff;
-  cursor: pointer;
 }
 
 .services-list {
@@ -251,7 +250,6 @@ h1 {
   margin-bottom: 32px;
   font-size: 18px;
   line-height: 24.59px;
-
   text-transform: uppercase;
 }
 
@@ -277,10 +275,6 @@ h1 {
   color: #121212;
 }
 
-.contacts__mail {
-  display: block;
-}
-
 .contacts__phone-number {
   display: block;
   margin-bottom: 30px;
@@ -289,7 +283,7 @@ h1 {
 .contacts__phone-number:hover,
 .contacts__mail:hover {
   opacity: 0.5;
-  text-decoration: underline;
+  border-bottom: 1px solid;
 }
 
 .footer-wrapper {
@@ -333,7 +327,7 @@ h1 {
 .footer__link-services:hover,
 .footer__link-contacts:hover {
   opacity: 0.5;
-  text-decoration: underline;
+  border-bottom: 1px solid;
 }
 
 .footer-description {
